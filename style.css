@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child {
+    width: 50%;
+    height: 200px;
+}
+
+.quad1 {
+    flex: 1;
+    width: 375px;
+    height: 575px;
+    border-radius: 5px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.quad2 {
+    flex: 1;
+    width: 375px;
+    height: 575px;
+    border-radius: 5px;
+    background-color: hsl(184, 100%, 22%)
+}
+
+.quad3 {
+    flex: 1;
+    width: 375px;
+    height: 575px;
+    border-radius: 5px;
+    background-color: hsl(179, 100%, 13%)
+}
+
+.margin {
+    width: 375px;
+    height: 575px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.margin h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 45px;
+    color: white;
+    line-height: 270%;
+    padding-right: 100px;
+}
+
+.margin p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 190%;
+    padding-right: 100px;
+}
+
+button:hover {
+    transition: 0.2s;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);        
+}
+
+.margin button {
+    height: 43px;
+    width: 135px;
+    border: solid;
+    border-color: hsl(0, 0%, 95%);
+    margin-top: 150px;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+.botao {
+    color: hsl(31, 77%, 52%);
+}
+
+.botao2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.botao3 {
+    color: hsl(179, 100%, 13%);
+}
+
